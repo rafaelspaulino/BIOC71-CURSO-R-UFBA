@@ -53,7 +53,6 @@ objeto.vetor.1 #leu os valores do novo objeto
 objeto.vetor2 = c(1, 74.5, 48) ##este obejeto gera vetores em conjunto
 objeto.vetor2 ##leu os vetores gerado por c
 
-"adicionei por causa do github"
 
 ?seq #gerar sequencias
 objeto.vetor3 = seq(from = 20, to = 32, by = 0.5) #novo objeto sequenciado de 20 a 32, separado em 0.5
@@ -65,8 +64,6 @@ median(objeto.vetor3) #mediana
 min(objeto.vetor3)
 max(objeto.vetor3)
 diff(objeto.vetor3) #calcula a diferença entre os elementos sucessivos do vetor
-
-"mais uma adicao por causa do github"
 
 # R também faz comparações entre objetos
 42 > 7 ##um valor é maior que outro
@@ -131,5 +128,3 @@ Getwd() ##funcao escrita de forma errada - A letra g deve ser minuscula
 #dica: quando o R der erro, copie e cole a mensagem de erro no google
 
 
-"git hub"
-"git hub 2"
