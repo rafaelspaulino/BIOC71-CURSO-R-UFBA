@@ -21,10 +21,10 @@ is.matrix(peso) ## cria matrizes de um conjunto de valores dados
 is.na() ##NA Ã© um valor faltante nos dados
 is.data.frame() ##funÃ§ao para checar se um objeto Ã© um data.frame
 
-##is é uma pergnta, ela da uma resposta ao que estou perguntando
+##is ? uma pergnta, ela da uma resposta ao que estou perguntando
 
 #o que queremos dizer quando dizemos uma funÃ§Ã£o "retorna" alguma coisa?
-##ela mostra o resultado, funcao é um comando para o r, retornar é o r mostrando o resultado
+##ela mostra o resultado, funcao ? um comando para o r, retornar ? o r mostrando o resultado
 ###valor final q o r me deu
 
 #o que a funÃ§Ã£o summary() faz?
@@ -34,6 +34,7 @@ is.data.frame() ##funÃ§ao para checar se um objeto Ã© um data.frame
 #mantida como controle. A biomassa seca (kg) por parcela foi medida para
 #verificar se houve efeito do adubo. Os dados obtidos foram:
 
+"mudei aqui por causa do github"
 #(Controle)	A	37	34	36	42	31  33
 #B	62	54	57	64	60
 #C	63	58	60	62	61 44
@@ -80,7 +81,7 @@ media.d
 
 # O que a funÃ§Ã£o unique() faz?
 ## retorna valores unicos do vetor, ignora valores repetidos
-##tudo que ocorre ignoando as repetições, tudo que ocorre pelo menos umas vez, ela retona
+##tudo que ocorre ignoando as repeti??es, tudo que ocorre pelo menos umas vez, ela retona
 
 
 #Usando o conjunto de dados caixeta.csv, disponivel em
@@ -150,7 +151,7 @@ obj = caixeta[caixeta$especie=="Alchornea triplinervia", ]
 obj
 table(obj$local) ##isso vitor fez em sala
 
-##a espécie ocorre em duas localidade, jureia e retiro
+##a esp?cie ocorre em duas localidade, jureia e retiro
 
 #podemos remover dados de um dataframe, usando o sinal de menos
 
@@ -164,10 +165,10 @@ caixeta.sem.retiro
 
 unique(semretiro$local) ##ta errado aqui tambem
 
-##! siginifica não, exclamação siginifica nao, tira o que não quero, não pega o que cumprir as condições abaixo
+##! siginifica n?o, exclama??o siginifica nao, tira o que n?o quero, n?o pega o que cumprir as condi??es abaixo
 
 
-##quatro rashtagas no final da frase é um capitulo do script####
+##quatro rashtagas no final da frase ? um capitulo do script####
 #crie os objetos abaixo, junte eles num dataframe de duas colunas chamado comNA,
 #depois crie um novo objeto chamado semNA, removendo todas as linhas que
 #contenham NA, usando a notaÃ§Ã£o acima (dica: sÃ³ se usa "" para valores do tipo
@@ -212,3 +213,5 @@ machos.grandes2=chacais$machos[chacais$machos>media.f]
 machos.grandes2
 machos.grandes2=lenght(chacais$machos[chacais$machos>media.f])
 machos.grandes2
+
+"alteracao do github"
